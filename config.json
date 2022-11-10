@@ -1,6 +1,6 @@
 {
 	"name": "test_module",
-	"version": 0,
+	"version": 1,
 	"source": ["github", "dkh-gh/php-lib.test_module", "main"],
 	"requirements": [
 	],

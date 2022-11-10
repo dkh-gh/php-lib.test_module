@@ -1,3 +1,3 @@
 <?php
-	echo '<div>[test_module: connected]</div>';
+	echo '<div>[test_module v1: connected]</div>';
 ?>
