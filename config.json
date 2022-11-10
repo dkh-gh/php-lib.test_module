@@ -1,7 +1,11 @@
 {
 	"name": "test_module",
-	"version": 2,
-	"source": ["github", "dkh-gh/php-lib.test_module", "main"],
+	"version": 3,
+	"source": {
+		"source": "github", 
+		"url": "dkh-gh/php-lib.test_module", 
+		"branch": "main"
+	},
 	"requirements": [
 		{"name": "test_module2", "path": "dkh-gh/php-lib.test_module2", "source": "github", "branch": "main"}
 	],
@@ -9,5 +13,10 @@
 		"test_module.php",
 		"config.json"
 	],
-	"include_needed": true
+	"include_needed": true,
+	"developers": {
+		"creator": {
+			"name": "dkh"
+		}
+	}
 }
