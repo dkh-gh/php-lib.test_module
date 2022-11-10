@@ -1,13 +1,13 @@
 {
 	"name": "test_module",
-	"version": 3,
+	"version": 3.1,
 	"source": {
 		"source": "github", 
 		"url": "dkh-gh/php-lib.test_module", 
 		"branch": "main"
 	},
 	"requirements": [
-		{"name": "test_module2", "path": "dkh-gh/php-lib.test_module2", "source": "github", "branch": "main"}
+		{"name": "test_module2", "url": "dkh-gh/php-lib.test_module2", "source": "github", "branch": "main"}
 	],
 	"structure": [
 		"test_module.php",
